@@ -7,7 +7,7 @@ setDefaultTimeout(60_000); // 60s pour éviter les timeouts
 let browser;
 
 BeforeAll(async () => {
-    browser = await chromium.launch({ headless: false });
+    browser = await chromium.launch({ headless: true });
 });
 
 Before(async function () {

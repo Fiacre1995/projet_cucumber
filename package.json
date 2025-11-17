@@ -1,0 +1,21 @@
+{
+  "name": "projet_cucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+
+    "test_cucumber": "npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
